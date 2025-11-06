@@ -1,8 +1,8 @@
 To run simply:
 
 ```
-export export LLMWHISPERER_API_KEY=<Your LLMWHISPERER Key> [Optional]
-export export OPENAI_API_KEY=<Your OPENAI Key>
+export LLMWHISPERER_API_KEY=<Your LLMWHISPERER Key> [Optional]
+export OPENAI_API_KEY=<Your OPENAI Key>
 ```
 
 ```
