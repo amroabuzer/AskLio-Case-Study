@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="non-editable">Requests Overview</title>
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="non-editable">Requests Overview</h1>
+      <div class="upload-section">
+        <label for="fileUpload" class="upload-label">Upload File:</label>
+        <input type="file" id="fileUpload" />
+        <button id="uploadBtn">Upload</button>
+        <div id="spinner" class="spinner"></div>
+      </div>
+
+      <table id="requestsTable">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="non-editable">ID</th>
+            <th class="non-editable">Requester Name</th>
+            <th class="non-editable">Title / Description</th>
+            <th class="non-editable">Vendor Name</th>
+            <th class="non-editable">VAT ID</th>
+            <th class="non-editable">Commodity Group</th>
+            <th class="non-editable">Total Cost</th>
+            <th class="non-editable">Department</th>
+            <th class="non-editable">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="userList"></tbody>
+      </table>
+    </div>
+
+    <script src="../static/script.js"></script>
+  </body>
+</html>
